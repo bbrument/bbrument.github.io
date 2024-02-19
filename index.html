@@ -1,157 +1,307 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <title>Baptiste Brument</title>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
-    <meta name="author" content="Baptiste Brument">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    
-  </head>
+  <title>Baptiste Brument</title>
 
-  <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Baptiste Brument
-                </p>
-                <p>
-                I'm a PhD student at <a href="https://www.irit.fr/">IRIT</a> in Toulouse, France, where I work on 3D reconstruction. My supervisors are Lilian Calvet and Jean-Denis Durou.
-                </p>
-                <p style="text-align:center">
-                  <a href="mailto:brument.bcb@gmail.com">Email</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?user=3VsREZ8AAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/bbrument">Github</a>
-                </p>
-              </td>
-              <td style="padding:2.5%;width:40%;max-width:40%">
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUKcmljayBhc2xleQ%3D%3D">
-                    <img src="images/image_baptiste.jpg" width="250px"></a>
-                        </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <meta name="author" content="Baptiste Brument" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+</head>
+
+<body>
+  <table style="
+        width: 100%;
+        max-width: 800px;
+        border: 0px;
+        border-spacing: 0px;
+        border-collapse: separate;
+        margin-right: auto;
+        margin-left: auto;
+      ">
+    <tbody>
+      <tr style="padding: 0px">
+        <td style="padding: 0px">
+          <table style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              ">
+            <tbody>
+              <tr style="padding: 0px">
+                <td style="padding: 2.5%; width: 63%; vertical-align: middle">
+                  <p class="name" style="text-align: center">
+                    Baptiste Brument
+                  </p>
+                  <p>
+                    I'm a PhD student at
+                    <a href="https://www.irit.fr/">IRIT</a> in Toulouse,
+                    France, where I work on 3D reconstruction. My supervisors
+                    are Lilian Calvet and Jean-Denis Durou.
+                  </p>
+                  <p style="text-align: center">
+                    <a href="mailto:brument.bcb@gmail.com">Email</a>
+                    &nbsp;/&nbsp;
+                    <a href="https://scholar.google.com/citations?user=3VsREZ8AAAAJ&hl=en">Scholar</a>
+                    &nbsp;/&nbsp;
+                    <a href="https://github.com/bbrument">Github</a>
+                  </p>
+                </td>
+                <td style="padding: 2.5%; width: 40%; max-width: 40%">
+                  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUKcmljayBhc2xleQ%3D%3D">
+                    <img src="images/image_baptiste.jpg" width="250px" /></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              ">
+            <tbody>
               <tr>
-              <td style="padding:20px;width:100%;vertical-align:middle">
-                <h2>Research</h2>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+                <td style="padding: 20px; width: 100%; vertical-align: middle">
+                  <h2>Research</h2>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              ">
+            <tbody>
+              <!-- RNb-NeuS 2023 -->
+              <tr onmouseout="rnbneus_stop()" onmouseover="rnbneus_start()">
+                <td style="padding: 20px; width: 25%; vertical-align: middle">
+                  <div class="one">
+                    <div class="two" id="rnbneus_image">
+                      <video width="100%" height="100%" muted autoplay loop>
+                        <source src="images/rnbneus_video.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <img src="images/rnbneus.jpg" width="160" />
+                  </div>
+                  <script type="text/javascript">
+                    function rnbneus_start() {
+                      document.getElementById("rnbneus_image").style.opacity =
+                        "1";
+                    }
 
-<tr onmouseout="rnbneus_stop()" onmouseover="rnbneus_start()">
-  <td style="padding:20px;width:25%;vertical-align:middle">
-    <div class="one">
-    <div class="two" id='rnbneus_image'><video  width=100% height=100% muted autoplay loop>
-    <source src="images/rnbneus_video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-    </video></div>
-      <img src='images/rnbneus.jpg' width="160">
-    </div>
-    <script type="text/javascript">
-      function rnbneus_start() {
-        document.getElementById('rnbneus_image').style.opacity = "1";
-      }
+                    function rnbneus_stop() {
+                      document.getElementById("rnbneus_image").style.opacity =
+                        "0";
+                    }
+                    rnbneus_stop();
+                  </script>
+                </td>
+                <td style="padding: 20px; width: 75%; vertical-align: middle">
+                  <a href="https://robinbruneau.github.io/publications/rnb_neus.html">
+                    <span class="papertitle">RNb-NeuS: Reflectance and Normal-based Multi-View 3D
+                      reconstruction
+                    </span>
+                  </a>
+                  <br />
+                  <strong>Baptiste Brument*</strong>,
+                  <a href="https://robinbruneau.github.io/">Robin Bruneau*</a>,
+                  <a href="https://sites.google.com/view/yvainqueau">Yvain Quéau</a>,
+                  <a href="https://scholar.google.fr/citations?user=t9PRZ3AAAAAJ&hl=en">Jean Mélou</a>,
+                  <a href="https://loutchoa.github.io/">François Bernard Lauze</a>,
+                  <a href="https://www.irit.fr/~Jean-Denis.Durou/">Jean-Denis Durou</a>,
+                  <a href="https://scholar.google.com/citations?user=6JewdrMAAAAJ&hl=en">Lilian Calvet</a>
+                  <br />
+                  <em>?</em>, 2023
+                  <br />
+                  <a href="https://robinbruneau.github.io/publications/rnb_neus.html">project page</a>
+                  /
+                  <a href="https://arxiv.org/abs/2312.01215">arXiv</a>
+                  <p></p>
+                  <p>
+                    A versatile paradigm for integrating multi-view
+                    reflectance and normal maps acquired through photometric
+                    stereo.
+                  </p>
+                </td>
+              </tr>
 
-      function rnbneus_stop() {
-        document.getElementById('rnbneus_image').style.opacity = "0";
-      }
-      rnbneus_stop()
-    </script>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
-    <a href="https://robinbruneau.github.io/publications/rnb_neus.html">
-      <span class="papertitle">RNb-NeuS: Reflectance and Normal-based Multi-View 3D reconstruction
-    </span>
-    </a>
-    <br>
-    <strong>Baptiste Brument*</strong>,
-    <a href="https://robinbruneau.github.io/">Robin Bruneau*</a>,
-    <a href="https://sites.google.com/view/yvainqueau">Yvain Quéau</a>,
-    <a href="https://scholar.google.fr/citations?user=t9PRZ3AAAAAJ&hl=en">Jean Mélou</a>,
-    <a href="https://loutchoa.github.io/">François Bernard Lauze</a>,
-    <a href="https://www.irit.fr/~Jean-Denis.Durou/">Jean-Denis Durou</a>,
-    <a href="https://scholar.google.com/citations?user=6JewdrMAAAAJ&hl=en">Lilian Calvet</a>
-    <br>
-	  <em>?</em>, 2023
-    <br>
-    <a href="https://robinbruneau.github.io/publications/rnb_neus.html">project page</a>
-    /
-    <a href="https://arxiv.org/abs/2312.01215">arXiv</a>
-    <p></p>
-    <p>
-    A versatile paradigm for integrating multi-view reflectance and normal maps acquired through photometric stereo.
-    </p>
-  </td>
-</tr>
+              <!-- QCAV 2023 -->
+              <tr onmouseout="sfspoly_stop()" onmouseover="sfspoly_start()">
+                <td style="padding: 20px; width: 25%; vertical-align: middle">
+                  <div class="one">
+                    <div class="two" id="sfspoly_image">
+                      <video width="100%" height="100%" muted autoplay loop>
+                        <source src="images/sfspoly_video.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <img src="images/sfspoly.png" width="160" />
+                  </div>
+                  <script type="text/javascript">
+                    function sfspoly_start() {
+                      document.getElementById("sfspoly_image").style.opacity =
+                        "1";
+                    }
 
-<tr onmouseout="sfspoly_stop()" onmouseover="sfspoly_start()">
-  <td style="padding:20px;width:25%;vertical-align:middle">
-    <div class="one">
-    <div class="two" id='sfspoly_image'><video  width=100% height=100% muted autoplay loop>
-    <source src="images/sfspoly_video.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-    </video></div>
-      <img src='images/sfspoly.png' width="160">
-    </div>
-    <script type="text/javascript">
-      function sfspoly_start() {
-        document.getElementById('sfspoly_image').style.opacity = "1";
-      }
+                    function sfspoly_stop() {
+                      document.getElementById("sfspoly_image").style.opacity =
+                        "0";
+                    }
+                    sfspoly_stop();
+                  </script>
+                </td>
+                <td style="padding: 20px; width: 75%; vertical-align: middle">
+                  <a href="https://hal.science/hal-04161936/">
+                    <span class="papertitle">A shape-from-silhouette method for 3D reconstruction of
+                      a convex polyhedron
+                    </span>
+                  </a>
+                  <br />
+                  <strong>Baptiste Brument</strong>,
+                  <a href="https://scholar.google.com/citations?user=6JewdrMAAAAJ&hl=en">Lilian Calvet</a>,
+                  <a href="https://robinbruneau.github.io/">Robin Bruneau</a>,
+                  <a href="https://scholar.google.fr/citations?user=t9PRZ3AAAAAJ&hl=en">Jean Mélou</a>,
+                  <a href="https://www.irit.fr/~Simone.Gasparini/">Simone Gasparini</a>,
+                  <a href="https://sites.google.com/view/yvainqueau">Yvain Quéau</a>,
+                  <a href="https://loutchoa.github.io/">François Bernard Lauze</a>,
+                  <a href="https://www.irit.fr/~Jean-Denis.Durou/">Jean-Denis Durou</a>
+                  <br />
+                  <em>QCAV</em>, 2023
+                  <br />
+                  <a href="https://hal.science/hal-04161936/">HAL</a>
+                  <p></p>
+                  <p>
+                    A pipeline to recover precisely the geometry of a convex
+                    polyhedral object from multiple views under circular
+                    motion.
+                  </p>
+                </td>
+              </tr>
 
-      function sfspoly_stop() {
-        document.getElementById('sfspoly_image').style.opacity = "0";
-      }
-      sfspoly_stop()
-    </script>
-  </td>
-  <td style="padding:20px;width:75%;vertical-align:middle">
-    <a href="https://hal.science/hal-04161936/">
-      <span class="papertitle">A shape-from-silhouette method for 3D reconstruction of a convex polyhedron 
-    </span>
-    </a>
-    <br>
-    <strong>Baptiste Brument</strong>,
-    <a href="https://scholar.google.com/citations?user=6JewdrMAAAAJ&hl=en">Lilian Calvet</a>,
-    <a href="https://robinbruneau.github.io/">Robin Bruneau</a>,
-    <a href="https://scholar.google.fr/citations?user=t9PRZ3AAAAAJ&hl=en">Jean Mélou</a>,
-    <a href="https://www.irit.fr/~Simone.Gasparini/">Simone Gasparini</a>,
-    <a href="https://sites.google.com/view/yvainqueau">Yvain Quéau</a>,
-    <a href="https://loutchoa.github.io/">François Bernard Lauze</a>,
-    <a href="https://www.irit.fr/~Jean-Denis.Durou/">Jean-Denis Durou</a>
-    <br>
-    <em>QCAV</em>, 2023
-    <br>
-    <a href="https://hal.science/hal-04161936/">HAL</a>
-    <p></p>
-    <p>
-    A pipeline to recover precisely the geometry of a convex polyhedral object from multiple views under circular motion.
-    </p>
-  </td>
-</tr>                   
-            
-            
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:right;font-size:small;">
-                  It's a Jon Barron website.
-                  Last updated December 2023.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
+              <!-- SSVM 2022 -->
+              <tr onmouseout="nicolas_ssvm_stop()" onmouseover="nicolas_ssvm_start()">
+                <td style="padding: 20px; width: 25%; vertical-align: middle">
+                  <div class="one">
+                    <img src="images/nicolas_ssvm.png" width="160" />
+                  </div>
+                  <script type="text/javascript">
+                    function nicolas_ssvm_start() {
+                      document.getElementById(
+                        "nicolas_ssvm_image"
+                      ).style.opacity = "1";
+                    }
+
+                    function nicolas_ssvm_stop() {
+                      document.getElementById(
+                        "nicolas_ssvm_image"
+                      ).style.opacity = "0";
+                    }
+                    nicolas_ssvm_stop();
+                  </script>
+                </td>
+                <td style="padding: 20px; width: 75%; vertical-align: middle">
+                  <a href="https://hal.science/hal-04038245/">
+                    <span class="papertitle">Multi-view Normal Estimation -- Application to Slanted
+                      Plane-Sweeping
+                    </span>
+                  </a>
+                  <br />
+                  <a href="https://scholar.google.com/citations?user=6JewdrMAAAAJ&hl=en">Lilian Calvet</a>,
+                  Nicolas Maignan,
+                  <strong>Baptiste Brument</strong>,
+                  Silvia Tozza,
+                  <a href="https://www.irit.fr/~Jean-Denis.Durou/">Jean-Denis Durou</a>,
+                  <a href="https://sites.google.com/view/yvainqueau">Yvain Quéau</a>
+                  <br />
+                  <em>SSVM, 2023</em>
+                  <br />
+                  <a href="https://hal.science/hal-04038245/">HAL</a>
+                  <p></p>
+                  <p>
+                    The paper presents a method to estimate 3D surface normals from two views with known camera poses, enhancing inter-image homography and improving photo-consistency in the "plane-sweeping" method,
+                  </p>
+                </td>
+              </tr>
+
+              <!-- Orasis 2021 -->
+              <tr onmouseout="sfspoly_orasis_stop()" onmouseover="sfspoly_orasis_start()">
+                <td style="padding: 20px; width: 25%; vertical-align: middle">
+                  <div class="one">
+                    <img src="images/sfspoly_orasis.png" width="160" />
+                  </div>
+                  <script type="text/javascript">
+                    function sfspoly_orasis_start() {
+                      document.getElementById(
+                        "sfspoly_orasis_image"
+                      ).style.opacity = "1";
+                    }
+
+                    function sfspoly_orasis_stop() {
+                      document.getElementById(
+                        "sfspoly_orasis_image"
+                      ).style.opacity = "0";
+                    }
+                    sfspoly_orasis_stop();
+                  </script>
+                </td>
+                <td style="padding: 20px; width: 75%; vertical-align: middle">
+                  <a href="https://hal.archives-ouvertes.fr/hal-03339659">
+                    <span class="papertitle">Reconstruction 3D d'un polyèdre convexe à partir de ses
+                      silhouettes
+                    </span>
+                  </a>
+                  <br />
+                  <strong>Baptiste Brument</strong>,
+                  <a href="https://scholar.google.com/citations?user=6JewdrMAAAAJ&hl=en">Lilian Calvet</a>,
+                  <a href="https://scholar.google.fr/citations?user=t9PRZ3AAAAAJ&hl=en">Jean Mélou</a>,
+                  <a href="https://www.irit.fr/~Jean-Denis.Durou/">Jean-Denis Durou</a>
+                  <br />
+                  <em>ORASIS, 2021</em>
+                  <br />
+                  <a href="https://hal.archives-ouvertes.fr/hal-03339659">HAL</a>
+                  <p></p>
+                  <p>Reconstruction 3D d'un objet immergé dans un milieu réfringent, en utilisant un dioptre assimilé à un polyèdre convexe placé sur une table tournante, avec l'estimation de sa géométrie à partir des silhouettes capturées par une caméra statique.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              ">
+            <tbody>
+              <tr>
+                <td style="padding: 0px">
+                  <br />
+                  <p style="text-align: right; font-size: small">
+                    It's a Jon Barron website. Last updated December 2023.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </td>
       </tr>
-    </table>
-  </body>
+    </tbody>
+  </table>
+</body>
+
 </html>
