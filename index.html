@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" type="text/css" href="stylesheet.css" />
-</head>
+
 
 <body>
   <table style="
@@ -87,29 +87,188 @@
                 margin-left: auto;
               ">
             <tbody>
-              <!-- RNb-NeuS 2024 -->
-              <tr onmouseout="rnbneus_stop()" onmouseover="rnbneus_start()">
+
+              <!-- 2025 Publications Header -->
+              <tr>
+                <td colspan="2">
+                  <h2 style="padding-left: 20px; border-bottom: 1px solid #ddd; color: #4b6cb7;">2025</h2>
+                </td>
+              </tr>
+
+              <!-- WACV 2025 -->
+              <tr onmouseout="wacv2025assessing_stop()" onmouseover="wacv2025assessing_start()">
                 <td style="padding: 20px; width: 25%; vertical-align: middle">
                   <div class="one">
-                    <div class="two" id="rnbneus_image">
+                    <img src="images/wacv2025assessing.png" width="160" />
+                  </div>
+                  <script type="text/javascript">
+                    function wacv2025assessing_start() {
+                      document.getElementById(
+                        "wacv2025assessing_image"
+                      ).style.opacity = "1";
+                    }
+
+                    function wacv2025assessing_stop() {
+                      document.getElementById(
+                        "wacv2025assessing_image"
+                      ).style.opacity = "0";
+                    }
+                    wacv2025assessing_stop();
+                  </script>
+                </td>
+                <td style="padding: 20px; width: 75%; vertical-align: middle">
+                  <a href="https://openaccess.thecvf.com/content/WACV2025/html/Coupry_Assessing_the_Quality_of_3D_Reconstruction_in_the_Absence_of_WACV_2025_paper.html">
+                    <span class="papertitle">Assessing the Quality of 3D Reconstruction in the Absence of Ground Truth: Application to a Multimodal Archaeological Dataset</span>
+                  </a>
+                  <br />
+                  <a href="https://fr.linkedin.com/in/benjamin-coupry-1a1b91195">Benjamin Coupry</a>,
+                  <strong>Baptiste Brument</strong>,
+                  <a href="https://cv.hal.science/antoine-laurent-archeologie">Antoine Laurent</a>,
+                  <a href="https://scholar.google.fr/citations?user=t9PRZ3AAAAAJ&hl=en">Jean Mélou</a>,
+                  <a href="https://sites.google.com/view/yvainqueau">Yvain Quéau</a>,
+                  <a href="https://www.irit.fr/~Jean-Denis.Durou/">Jean-Denis Durou</a>
+                  <br />
+                  <em>WACV</em>, 2025
+                  <br />
+                  <a href="https://openaccess.thecvf.com/content/WACV2025/html/Coupry_Assessing_the_Quality_of_3D_Reconstruction_in_the_Absence_of_WACV_2025_paper.html">CVF</a>
+                  /
+                  <a href="data/coupry2025assessing.bib">BibTeX</a>
+                  <p></p>
+                  <p>
+                    A methodology to evaluate 3D reconstruction quality without ground truth reference, applied to archaeological artifacts captured using multiple imaging techniques.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- IPCAI 2025 -->
+              <tr onmouseout="ipcai2025acquiring_stop()" onmouseover="ipcai2025acquiring_start()">
+                <td style="padding: 20px; width: 25%; vertical-align: middle">
+                  <div class="one">
+                    <img src="images/ipcai2025acquiring.png" width="160" />
+                  </div>
+                  <script type="text/javascript">
+                    function ipcai2025acquiring_start() {
+                      document.getElementById(
+                        "ipcai2025acquiring_image"
+                      ).style.opacity = "1";
+                    }
+
+                    function ipcai2025acquiring_stop() {
+                      document.getElementById(
+                        "ipcai2025acquiring_image"
+                      ).style.opacity = "0";
+                    }
+                    ipcai2025acquiring_stop();
+                  </script>
+                </td>
+                <td style="padding: 20px; width: 75%; vertical-align: middle">
+                  <a href="https://arxiv.org/abs/2501.15371">
+                    <span class="papertitle">Acquiring Submillimeter-Accurate Multi-Task Vision Datasets for Computer-Assisted Orthopedic Surgery</span>
+                  </a>
+                  <br />
+                  <a href="https://ch.linkedin.com/in/emma-most">Emma Most</a>,
+                  <a href="https://scholar.google.com/citations?user=Kk_o9AYAAAAJ&hl=en">Jonas Hein</a>,
+                  <a href="https://scholar.google.com/citations?user=Lf6jqg4AAAAJ&hl=en">Frédéric Giraud</a>,
+                  <a href="https://scholar.google.com/citations?user=ulEV9OkAAAAJ&hl=en">Nicola Cavalcanti</a>,
+                  <a href="https://ch.linkedin.com/in/lukas-zingg-36ba66252">Lukas Zingg</a>,
+                  <strong>Baptiste Brument</strong>,
+                  <a href="https://ch.linkedin.com/in/nino-louman-73389b226">Nino Louman</a>,
+                  <a href="https://scholar.google.ch/citations?user=n7A302IAAAAJ&hl=en">Fabio Carillo</a>,
+                  <a href="https://scholar.google.ch/citations?user=nQ4B3BgAAAAJ&hl=en">Philipp Fürnstahl</a>,
+                  <a href="https://scholar.google.com/citations?user=6JewdrMAAAAJ&hl=en">Lilian Calvet</a>
+                  <br />
+                  <em>IPCAI</em>, 2025
+                  <br />
+                  <a href="https://arxiv.org/abs/2501.15371">arXiv</a>
+                  /
+                  <a href="data/most2025acquiring.bib">BibTeX</a>
+                  <p></p>
+                  <p>
+                    A comprehensive approach for acquiring submillimeter-accurate multi-task vision datasets for computer-assisted orthopedic surgery applications.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- 2024 Publications Header -->
+              <tr>
+                <td colspan="2">
+                  <h2 style="padding-left: 20px; border-bottom: 1px solid #ddd; color: #4b6cb7;">2024</h2>
+                </td>
+              </tr>
+
+              <!-- RFIAP Benjamin 2024 -->
+              <tr onmouseout="rfiap2024stereophotometrie_stop()" onmouseover="rfiap2024stereophotometrie_start()">
+                <td style="padding: 20px; width: 25%; vertical-align: middle">
+                  <div class="one">
+                    <div class="two" id="rfiap2024stereophotometrie_image">
                       <video width="100%" height="100%" muted autoplay loop>
-                        <source src="images/rnbneus_video.mp4" type="video/mp4" />
+                        <source src="images/rfiap2024stereophotometrie.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                       </video>
                     </div>
-                    <img src="images/rnbneus.jpg" width="160" />
+                    <img src="images/rfiap2024stereophotometrie.png" width="160" />
                   </div>
                   <script type="text/javascript">
-                    function rnbneus_start() {
-                      document.getElementById("rnbneus_image").style.opacity =
+                    function rfiap2024stereophotometrie_start() {
+                      document.getElementById("rfiap2024stereophotometrie_image").style.opacity =
                         "1";
                     }
 
-                    function rnbneus_stop() {
-                      document.getElementById("rnbneus_image").style.opacity =
+                    function rfiap2024stereophotometrie_stop() {
+                      document.getElementById("rfiap2024stereophotometrie_image").style.opacity =
                         "0";
                     }
-                    rnbneus_stop();
+                    rfiap2024stereophotometrie_stop();
+                  </script>
+                </td>
+                <td style="padding: 20px; width: 75%; vertical-align: middle">
+                  <a href="https://hal.science/IRIT-REVA/hal-04594418">
+                    <span class="papertitle">Stéréophotométrie avec estimation locale de l'éclairage - Application à la reconstruction 3D du patrimoine archéologique</span>
+                  </a>
+                  <br />
+                  <a href="https://fr.linkedin.com/in/benjamin-coupry-1a1b91195">Benjamin Coupry</a>,
+                  <a href="https://scholar.google.fr/citations?user=t9PRZ3AAAAAJ&hl=en">Jean Mélou</a>,
+                  <a href="https://cv.hal.science/antoine-laurent-archeologie">Antoine Laurent</a>,
+                  <strong>Baptiste Brument</strong>,
+                  <a href="https://scholar.google.fr/citations?user=aDCtIrgAAAAJ">Pierre Gurdjos</a>,
+                  <a href="https://sites.google.com/view/yvainqueau">Yvain Quéau</a>,
+                  <a href="https://www.irit.fr/~Jean-Denis.Durou/">Jean-Denis Durou</a>
+                  <br />
+                  <em>RFIAP</em>, 2024
+                  <br />
+                  <a href="https://hal.science/IRIT-REVA/hal-04594418">HAL</a>
+                  /
+                  <a href="data/coupry2024stereometrie.bib">BibTeX</a>
+                  <p></p>
+                  <p>
+                    Combinaison de photogrammétrie multi-vues et stéréophotométrie pour obtenir des reconstructions 3D à la fois précises et détaillées en estimant l'éclairage local.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- RNb-NeuS 2024 -->
+              <tr onmouseout="cvpr2024rnbneus_stop()" onmouseover="cvpr2024rnbneus_start()">
+                <td style="padding: 20px; width: 25%; vertical-align: middle">
+                  <div class="one">
+                    <div class="two" id="cvpr2024rnbneus_image">
+                      <video width="100%" height="100%" muted autoplay loop>
+                        <source src="images/cvpr2024rnbneus.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                    <img src="images/cvpr2024rnbneus.jpg" width="160" />
+                  </div>
+                  <script type="text/javascript">
+                    function cvpr2024rnbneus_start() {
+                      document.getElementById("cvpr2024rnbneus_image").style.opacity =
+                        "1";
+                    }
+
+                    function cvpr2024rnbneus_stop() {
+                      document.getElementById("cvpr2024rnbneus_image").style.opacity =
+                        "0";
+                    }
+                    cvpr2024rnbneus_stop();
                   </script>
                 </td>
                 <td style="padding: 20px; width: 75%; vertical-align: middle">
@@ -134,6 +293,8 @@
                   <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Brument_RNb-NeuS_Reflectance_and_Normal-based_Multi-View_3D_Reconstruction_CVPR_2024_paper.html">CVF</a>
                   /
                   <a href="https://arxiv.org/abs/2312.01215">arXiv</a>
+                  /
+                  <a href="data/brument2024rnbneus.bib">BibTeX</a>
                   <p></p>
                   <p>
                     A versatile paradigm for integrating multi-view
@@ -144,9 +305,25 @@
               </tr>
 
               <!-- JEI 2024 -->
-              <tr onmouseout="jei_refractive_stop()" onmouseover="jei_refractive_start()">
+              <tr onmouseout="jei2024multiview_stop()" onmouseover="jei2024multiview_start()">
                 <td style="padding: 20px; width: 25%; vertical-align: middle">
-                  <img src="images/jei_refractive.png" width="160" />
+                  <div class="one">
+                    <img src="images/jei2024multiview.png" width="160" />
+                  </div>
+                  <script type="text/javascript">
+                    function jei2024multiview_start() {
+                      document.getElementById(
+                        "jei2024multiview_image"
+                      ).style.opacity = "1";
+                    }
+
+                    function jei2024multiview_stop() {
+                      document.getElementById(
+                        "jei2024multiview_image"
+                      ).style.opacity = "0";
+                    }
+                    jei2024multiview_stop();
+                  </script>
                 </td>
                 <td style="padding: 20px; width: 75%; vertical-align: middle">
                   <a href="https://doi.org/10.1117/1.JEI.33.3.033005">
@@ -162,11 +339,13 @@
                   <a href="https://www.irit.fr/~Jean-Denis.Durou/">Jean-Denis Durou</a>,
                   <a href="https://loutchoa.github.io/">François Bernard Lauze</a>
                   <br />
-                  <em>Journal of Electronic Imaging</em>, 2024
+                  <em>JEI</em>, 2024
                   <br />
                   <a href="https://hal.science/hal-04567615/">HAL</a>
                   /
                   <a href="https://doi.org/10.1117/1.JEI.33.3.033005">SPIE</a>
+                  /
+                  <a href="data/bruneau2024multiview.bib">BibTeX</a>
                   <p></p>
                   <p>
                     An extended multi-view stereo technique to reconstruct objects within a transparent, refractive medium by modeling the refractive interface's geometry and solving it using a discrete method validated on synthetic and real data.
@@ -174,77 +353,36 @@
                 </td>
               </tr>
 
-              <!-- RFIAP Benjamin 2024 -->
-              <tr onmouseout="benjamin_rfiap24_stop()" onmouseover="benjamin_rfiap24_start()">
-                <td style="padding: 20px; width: 25%; vertical-align: middle">
-                  <div class="one">
-                    <div class="two" id="benjamin_rfiap24_image">
-                      <video width="100%" height="100%" muted autoplay loop>
-                        <source src="images/benjamin_rfiap24.mp4" type="video/mp4" />
-                        Your browser does not support the video tag.
-                      </video>
-                    </div>
-                    <img src="images/benjamin_rfiap24.png" width="160" />
-                  </div>
-                  <script type="text/javascript">
-                    function benjamin_rfiap24_start() {
-                      document.getElementById("benjamin_rfiap24_image").style.opacity =
-                        "1";
-                    }
-
-                    function benjamin_rfiap24_stop() {
-                      document.getElementById("benjamin_rfiap24_image").style.opacity =
-                        "0";
-                    }
-                    benjamin_rfiap24_stop();
-                  </script>
-                </td>
-                <td style="padding: 20px; width: 75%; vertical-align: middle">
-                  <a href="https://hal.science/IRIT-REVA/hal-04594418">
-                    <span class="papertitle">Stéréophotométrie avec estimation locale de l'éclairage - Application à la reconstruction 3D du patrimoine archéologique</span>
-                  </a>
-                  <br />
-                  <a href="https://fr.linkedin.com/in/benjamin-coupry-1a1b91195">Benjamin Coupry</a>,
-                  <a href="https://scholar.google.fr/citations?user=t9PRZ3AAAAAJ&hl=en">Jean Mélou</a>,
-                  <a href="https://cv.hal.science/antoine-laurent-archeologie">Antoine Laurent</a>,
-                  <strong>Baptiste Brument</strong>,
-                  <a href="https://scholar.google.fr/citations?user=aDCtIrgAAAAJ">Pierre Gurdjos</a>,
-                  <a href="https://sites.google.com/view/yvainqueau">Yvain Quéau</a>,
-                  <a href="https://www.irit.fr/~Jean-Denis.Durou/">Jean-Denis Durou</a>
-                  <br />
-                  <em>Congrès RFIAP</em>, 2024
-                  <br />
-                  <a href="https://hal.science/IRIT-REVA/hal-04594418">HAL</a>
-                  <p></p>
-                  <p>
-                    Combinaison de photogrammétrie multi-vues et stéréophotométrie pour obtenir des reconstructions 3D à la fois précises et détaillées en estimant l'éclairage local.
-                  </p>
+              <!-- 2023 Publications Header -->
+              <tr>
+                <td colspan="2">
+                  <h2 style="padding-left: 20px; border-bottom: 1px solid #ddd; color: #4b6cb7;">2023</h2>
                 </td>
               </tr>
 
               <!-- QCAV 2023 -->
-              <tr onmouseout="sfspoly_stop()" onmouseover="sfspoly_start()">
+              <tr onmouseout="qcav2023shapesilhouette_stop()" onmouseover="qcav2023shapesilhouette_start()">
                 <td style="padding: 20px; width: 25%; vertical-align: middle">
                   <div class="one">
-                    <div class="two" id="sfspoly_image">
+                    <div class="two" id="qcav2023shapesilhouette_image">
                       <video width="100%" height="100%" muted autoplay loop>
-                        <source src="images/sfspoly_video.mp4" type="video/mp4" />
+                        <source src="images/qcav2023shapesilhouette.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                       </video>
                     </div>
-                    <img src="images/sfspoly.png" width="160" />
+                    <img src="images/qcav2023shapesilhouette.png" width="160" />
                   </div>
                   <script type="text/javascript">
-                    function sfspoly_start() {
-                      document.getElementById("sfspoly_image").style.opacity =
+                    function qcav2023shapesilhouette_start() {
+                      document.getElementById("qcav2023shapesilhouette_image").style.opacity =
                         "1";
                     }
 
-                    function sfspoly_stop() {
-                      document.getElementById("sfspoly_image").style.opacity =
+                    function qcav2023shapesilhouette_stop() {
+                      document.getElementById("qcav2023shapesilhouette_image").style.opacity =
                         "0";
                     }
-                    sfspoly_stop();
+                    qcav2023shapesilhouette_stop();
                   </script>
                 </td>
                 <td style="padding: 20px; width: 75%; vertical-align: middle">
@@ -268,6 +406,8 @@
                   <a href="https://hal.science/hal-04161936/">HAL</a>
                   /
                   <a href="https://doi.org/10.1117/12.3000368">SPIE</a>
+                  /
+                  <a href="data/brument2023shapesilhouette.bib">BibTeX</a>
                   <p></p>
                   <p>
                     A pipeline to recover precisely the geometry of a convex
@@ -277,25 +417,25 @@
                 </td>
               </tr>
 
-              <!-- SSVM 2022 -->
-              <tr onmouseout="nicolas_ssvm_stop()" onmouseover="nicolas_ssvm_start()">
+              <!-- SSVM 2023 -->
+              <tr onmouseout="ssvm2023multiview_stop()" onmouseover="ssvm2023multiview_start()">
                 <td style="padding: 20px; width: 25%; vertical-align: middle">
                   <div class="one">
-                    <img src="images/nicolas_ssvm.png" width="160" />
+                    <img src="images/ssvm2023multiview.png" width="160" />
                   </div>
                   <script type="text/javascript">
-                    function nicolas_ssvm_start() {
+                    function ssvm2023multiview_start() {
                       document.getElementById(
-                        "nicolas_ssvm_image"
+                        "ssvm2023multiview_image"
                       ).style.opacity = "1";
                     }
 
-                    function nicolas_ssvm_stop() {
+                    function ssvm2023multiview_stop() {
                       document.getElementById(
-                        "nicolas_ssvm_image"
+                        "ssvm2023multiview_image"
                       ).style.opacity = "0";
                     }
-                    nicolas_ssvm_stop();
+                    ssvm2023multiview_stop();
                   </script>
                 </td>
                 <td style="padding: 20px; width: 75%; vertical-align: middle">
@@ -317,6 +457,8 @@
                   <a href="https://hal.science/hal-04038245/">HAL</a>
                   /
                   <a href="https://doi.org/10.1007/978-3-031-31975-4_54">Springer</a>
+                  /
+                  <a href="data/calvet2023multiview.bib">BibTeX</a>
                   <p></p>
                   <p>
                     The paper presents a method to estimate 3D surface normals from two views with known camera poses, enhancing inter-image homography and improving photo-consistency in the "plane-sweeping" method,
@@ -324,25 +466,32 @@
                 </td>
               </tr>
 
+            <!-- 2021 Publications Header -->
+            <tr>
+              <td colspan="2">
+                <h2 style="padding-left: 20px; border-bottom: 1px solid #ddd; color: #4b6cb7;">2021</h2>
+              </td>
+            </tr>
+
               <!-- Orasis 2021 -->
-              <tr onmouseout="sfspoly_orasis_stop()" onmouseover="sfspoly_orasis_start()">
+              <tr onmouseout="orasis2021reconstruction_stop()" onmouseover="orasis2021reconstruction_start()">
                 <td style="padding: 20px; width: 25%; vertical-align: middle">
                   <div class="one">
-                    <img src="images/sfspoly_orasis.png" width="160" />
+                    <img src="images/orasis2021reconstruction.png" width="160" />
                   </div>
                   <script type="text/javascript">
-                    function sfspoly_orasis_start() {
+                    function orasis2021reconstruction_start() {
                       document.getElementById(
-                        "sfspoly_orasis_image"
+                        "orasis2021reconstruction_image"
                       ).style.opacity = "1";
                     }
 
-                    function sfspoly_orasis_stop() {
+                    function orasis2021reconstruction_stop() {
                       document.getElementById(
-                        "sfspoly_orasis_image"
+                        "orasis2021reconstruction_image"
                       ).style.opacity = "0";
                     }
-                    sfspoly_orasis_stop();
+                    orasis2021reconstruction_stop();
                   </script>
                 </td>
                 <td style="padding: 20px; width: 75%; vertical-align: middle">
@@ -360,8 +509,17 @@
                   <em>ORASIS, 2021</em>
                   <br />
                   <a href="https://hal.archives-ouvertes.fr/hal-03339659">HAL</a>
+                  /
+                  <a href="data/brument2021reconstruction.bib">BibTeX</a>
                   <p></p>
                   <p>Reconstruction 3D d'un objet immergé dans un milieu réfringent, en utilisant un dioptre assimilé à un polyèdre convexe placé sur une table tournante, avec l'estimation de sa géométrie à partir des silhouettes capturées par une caméra statique.</p>
+                </td>
+              </tr>
+
+              <!-- Note about equal contributions -->
+              <tr>
+                <td colspan="2" style="padding: 20px; text-align: right; font-style: italic; color: #666;">
+                  * Equal contribution
                 </td>
               </tr>
             </tbody>
@@ -379,7 +537,7 @@
                 <td style="padding: 0px">
                   <br />
                   <p style="text-align: right; font-size: small">
-                    It's a Jon Barron website. Last updated September 2024.
+                    This website is inspired from Jon Barron's. Last updated February 2025.
                   </p>
                 </td>
               </tr>
