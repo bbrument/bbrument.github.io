@@ -124,6 +124,22 @@ h2 {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
+.gif-container {
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  position: relative;
+}
+
+.gif-img {
+  width: 160px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
 .fade {
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
