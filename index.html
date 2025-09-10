@@ -94,47 +94,36 @@
                 </td>
               </tr>
 
-              <!-- WACV 2025 -->
-              <tr onmouseout="wacv2025assessing_stop()" onmouseover="wacv2025assessing_start()">
+              <!-- Journal 2025 -->
+              <tr class="paper-entry">
                 <td style="padding: 20px; width: 25%; vertical-align: middle">
                   <div class="one">
-                    <img src="images/wacv2025assessing.png" width="160" />
+                    <img src="images/journal2025multiview.png" width="160" />
                   </div>
-                  <script type="text/javascript">
-                    function wacv2025assessing_start() {
-                      document.getElementById(
-                        "wacv2025assessing_image"
-                      ).style.opacity = "1";
-                    }
-
-                    function wacv2025assessing_stop() {
-                      document.getElementById(
-                        "wacv2025assessing_image"
-                      ).style.opacity = "0";
-                    }
-                    wacv2025assessing_stop();
-                  </script>
                 </td>
                 <td style="padding: 20px; width: 75%; vertical-align: middle">
-                  <a href="https://openaccess.thecvf.com/content/WACV2025/html/Coupry_Assessing_the_Quality_of_3D_Reconstruction_in_the_Absence_of_WACV_2025_paper.html">
-                    <span class="papertitle">Assessing the Quality of 3D Reconstruction in the Absence of Ground Truth: Application to a Multimodal Archaeological Dataset</span>
+                  <a href="https://robinbruneau.github.io/publications/rnb_neus2.html">
+                    <span class="papertitle">Multi-view Surface Reconstruction Using Normal and Reflectance Cues</span>
                   </a>
                   <br />
-                  <a href="https://fr.linkedin.com/in/benjamin-coupry-1a1b91195">Benjamin Coupry</a>,
-                  <strong>Baptiste Brument</strong>,
-                  <a href="https://cv.hal.science/antoine-laurent-archeologie">Antoine Laurent</a>,
+                  <a href="https://robinbruneau.github.io/">Robin Bruneau*</a>,
+                  <strong>Baptiste Brument*</strong>,
+                  <a href="https://yqueau.github.io/">Yvain Quéau</a>,
                   <a href="https://scholar.google.fr/citations?user=t9PRZ3AAAAAJ&hl=en">Jean Mélou</a>,
-                  <a href="https://sites.google.com/view/yvainqueau">Yvain Quéau</a>,
-                  <a href="https://www.irit.fr/~Jean-Denis.Durou/">Jean-Denis Durou</a>
+                  <a href="https://loutchoa.github.io/">François Bernard Lauze</a>,
+                  <a href="https://cv.hal.science/jean-denis-durou">Jean-Denis Durou</a>,
+                  <a href="https://fr.linkedin.com/in/lilian-calvet-42b1a689">Lilian Calvet</a>
                   <br />
-                  <em>WACV</em>, 2025
+                  <em>arXiv preprint</em>, 2025 (Journal publication forthcoming)
                   <br />
-                  <a href="https://openaccess.thecvf.com/content/WACV2025/html/Coupry_Assessing_the_Quality_of_3D_Reconstruction_in_the_Absence_of_WACV_2025_paper.html">CVF</a>
+                  <a href="https://robinbruneau.github.io/publications/rnb_neus2.html">Project page</a>
                   /
-                  <a href="data/coupry2025assessing.bib">BibTeX</a>
+                  <a href="https://arxiv.org/abs/2506.04115">arXiv</a>
+                  /
+                  <a href="data/bruneau2025multiview.bib">BibTeX</a>
                   <p></p>
                   <p>
-                    A methodology to evaluate 3D reconstruction quality without ground truth reference, applied to archaeological artifacts captured using multiple imaging techniques.
+                    An extended framework that incorporates multi-view normal and reflectance maps into radiance-based surface reconstruction, achieving state-of-the-art performance on MVPS benchmark datasets with improved fine-grained detail reconstruction.
                   </p>
                 </td>
               </tr>
@@ -188,6 +177,84 @@
                 </td>
               </tr>
 
+              <!-- JCH 2025 -->
+              <tr class="paper-entry">
+                <td style="padding: 20px; width: 25%; vertical-align: middle">
+                  <div class="gif-container">
+                    <img class="gif-img" src="images/jch2025combining.gif" width="160" />
+                  </div>
+                </td>
+                <td style="padding: 20px; width: 75%; vertical-align: middle">
+                  <a href="https://doi.org/10.1016/j.culher.2025.02.013">
+                    <span class="papertitle">Combining geometric and photometric 3D reconstruction techniques for cultural heritage</span>
+                  </a>
+                  <br />
+                  <a href="https://cv.hal.science/antoine-laurent-archeologie">Antoine Laurent</a>,
+                  <a href="https://fr.linkedin.com/in/benjamin-coupry-1a1b91195">Benjamin Coupry</a>,
+                  <strong>Baptiste Brument</strong>,
+                  <a href="https://scholar.google.fr/citations?user=t9PRZ3AAAAAJ&hl=en">Jean Mélou</a>,
+                  <a href="https://yqueau.github.io/">Yvain Quéau</a>,
+                  <a href="https://cv.hal.science/carole-fritz">Carole Fritz</a>,
+                  <a href="">Jean-Denis Durou</a>
+                  <br />
+                  <em>Journal of Cultural Heritage</em>, 2025
+                  <br />
+                  <a href="https://doi.org/10.1016/j.culher.2025.02.013">Paper</a>
+                  /
+                  <a href="data/laurent2025combining.bib">BibTeX</a>
+                  <p></p>
+                  <p>
+                    A comprehensive comparison of photogrammetry and photometric 3D reconstruction techniques for archaeological features, proposing a promising new method that combines both families in a multi-view, multi-lighting context.
+                  </p>
+                </td>
+              </tr>
+              
+              <!-- WACV 2025 -->
+              <tr onmouseout="wacv2025assessing_stop()" onmouseover="wacv2025assessing_start()">
+                <td style="padding: 20px; width: 25%; vertical-align: middle">
+                  <div class="one">
+                    <img src="images/wacv2025assessing.png" width="160" />
+                  </div>
+                  <script type="text/javascript">
+                    function wacv2025assessing_start() {
+                      document.getElementById(
+                        "wacv2025assessing_image"
+                      ).style.opacity = "1";
+                    }
+
+                    function wacv2025assessing_stop() {
+                      document.getElementById(
+                        "wacv2025assessing_image"
+                      ).style.opacity = "0";
+                    }
+                    wacv2025assessing_stop();
+                  </script>
+                </td>
+                <td style="padding: 20px; width: 75%; vertical-align: middle">
+                  <a href="https://openaccess.thecvf.com/content/WACV2025/html/Coupry_Assessing_the_Quality_of_3D_Reconstruction_in_the_Absence_of_WACV_2025_paper.html">
+                    <span class="papertitle">Assessing the Quality of 3D Reconstruction in the Absence of Ground Truth: Application to a Multimodal Archaeological Dataset</span>
+                  </a>
+                  <br />
+                  <a href="https://fr.linkedin.com/in/benjamin-coupry-1a1b91195">Benjamin Coupry</a>,
+                  <strong>Baptiste Brument</strong>,
+                  <a href="https://cv.hal.science/antoine-laurent-archeologie">Antoine Laurent</a>,
+                  <a href="https://scholar.google.fr/citations?user=t9PRZ3AAAAAJ&hl=en">Jean Mélou</a>,
+                  <a href="https://yqueau.github.io/">Yvain Quéau</a>,
+                  <a href="https://cv.hal.science/jean-denis-durou">Jean-Denis Durou</a>
+                  <br />
+                  <em>WACV</em>, 2025
+                  <br />
+                  <a href="https://openaccess.thecvf.com/content/WACV2025/html/Coupry_Assessing_the_Quality_of_3D_Reconstruction_in_the_Absence_of_WACV_2025_paper.html">CVF</a>
+                  /
+                  <a href="data/coupry2025assessing.bib">BibTeX</a>
+                  <p></p>
+                  <p>
+                    A methodology to evaluate 3D reconstruction quality without ground truth reference, applied to archaeological artifacts captured using multiple imaging techniques.
+                  </p>
+                </td>
+              </tr>
+
+
               <!-- 2024 Publications Header -->
               <tr>
                 <td colspan="2">
@@ -230,8 +297,8 @@
                   <a href="https://cv.hal.science/antoine-laurent-archeologie">Antoine Laurent</a>,
                   <strong>Baptiste Brument</strong>,
                   <a href="https://scholar.google.fr/citations?user=aDCtIrgAAAAJ">Pierre Gurdjos</a>,
-                  <a href="https://sites.google.com/view/yvainqueau">Yvain Quéau</a>,
-                  <a href="https://www.irit.fr/~Jean-Denis.Durou/">Jean-Denis Durou</a>
+                  <a href="https://yqueau.github.io/">Yvain Quéau</a>,
+                  <a href="https://cv.hal.science/jean-denis-durou">Jean-Denis Durou</a>
                   <br />
                   <em>RFIAP</em>, 2024
                   <br />
@@ -261,10 +328,10 @@
                   <br />
                   <strong>Baptiste Brument*</strong>,
                   <a href="https://robinbruneau.github.io/">Robin Bruneau*</a>,
-                  <a href="https://sites.google.com/view/yvainqueau">Yvain Quéau</a>,
+                  <a href="https://yqueau.github.io/">Yvain Quéau</a>,
                   <a href="https://scholar.google.fr/citations?user=t9PRZ3AAAAAJ&hl=en">Jean Mélou</a>,
                   <a href="https://loutchoa.github.io/">François Bernard Lauze</a>,
-                  <a href="https://www.irit.fr/~Jean-Denis.Durou/">Jean-Denis Durou</a>,
+                  <a href="https://cv.hal.science/jean-denis-durou">Jean-Denis Durou</a>,
                   <a href="https://fr.linkedin.com/in/lilian-calvet-42b1a689">Lilian Calvet</a>
                   <br />
                   <em>CVPR</em>, 2024
@@ -302,8 +369,8 @@
                   <a href="https://fr.linkedin.com/in/lilian-calvet-42b1a689">Lilian Calvet</a>,
                   <a href="https://fr.linkedin.com/in/matcassidy">Matthew Cassidy</a>, 
                   <a href="https://scholar.google.fr/citations?user=t9PRZ3AAAAAJ&hl=en">Jean Mélou</a>,
-                  <a href="https://sites.google.com/view/yvainqueau">Yvain Quéau</a>, 
-                  <a href="https://www.irit.fr/~Jean-Denis.Durou/">Jean-Denis Durou</a>,
+                  <a href="https://yqueau.github.io/">Yvain Quéau</a>, 
+                  <a href="https://cv.hal.science/jean-denis-durou">Jean-Denis Durou</a>,
                   <a href="https://loutchoa.github.io/">François Bernard Lauze</a>
                   <br />
                   <em>JEI</em>, 2024
@@ -346,9 +413,9 @@
                   <a href="https://robinbruneau.github.io/">Robin Bruneau</a>,
                   <a href="https://scholar.google.fr/citations?user=t9PRZ3AAAAAJ&hl=en">Jean Mélou</a>,
                   <a href="https://www.irit.fr/~Simone.Gasparini/">Simone Gasparini</a>,
-                  <a href="https://sites.google.com/view/yvainqueau">Yvain Quéau</a>,
+                  <a href="https://yqueau.github.io/">Yvain Quéau</a>,
                   <a href="https://loutchoa.github.io/">François Bernard Lauze</a>,
-                  <a href="https://www.irit.fr/~Jean-Denis.Durou/">Jean-Denis Durou</a>
+                  <a href="https://cv.hal.science/jean-denis-durou">Jean-Denis Durou</a>
                   <br />
                   <em>QCAV</em>, 2023
                   <br />
@@ -398,8 +465,8 @@
                   Nicolas Maignan,
                   <strong>Baptiste Brument</strong>,
                   Silvia Tozza,
-                  <a href="https://www.irit.fr/~Jean-Denis.Durou/">Jean-Denis Durou</a>,
-                  <a href="https://sites.google.com/view/yvainqueau">Yvain Quéau</a>
+                  <a href="https://cv.hal.science/jean-denis-durou">Jean-Denis Durou</a>,
+                  <a href="https://yqueau.github.io/">Yvain Quéau</a>
                   <br />
                   <em>SSVM, 2023</em>
                   <br />
@@ -453,7 +520,7 @@
                   <strong>Baptiste Brument</strong>,
                   <a href="https://fr.linkedin.com/in/lilian-calvet-42b1a689">Lilian Calvet</a>,
                   <a href="https://scholar.google.fr/citations?user=t9PRZ3AAAAAJ&hl=en">Jean Mélou</a>,
-                  <a href="https://www.irit.fr/~Jean-Denis.Durou/">Jean-Denis Durou</a>
+                  <a href="https://cv.hal.science/jean-denis-durou">Jean-Denis Durou</a>
                   <br />
                   <em>ORASIS, 2021</em>
                   <br />
