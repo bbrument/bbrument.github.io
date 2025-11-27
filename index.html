@@ -40,10 +40,10 @@
                     Baptiste Brument
                   </p>
                   <p>
-                    I'm a PhD student at
+                    I recently completed my PhD at
                     <a href="https://www.irit.fr/">IRIT</a> in Toulouse,
-                    France, where I work on 3D reconstruction from optical images. More precisely, I'm working on the MVPS problem and neural rendering techniques.
-                    My supervisors are <a href="https://fr.linkedin.com/in/lilian-calvet-42b1a689">Lilian Calvet</a> and <a href="https://www.irit.fr/~Jean-Denis.Durou">Jean-Denis Durou</a>.
+                    France, where I worked on 3D reconstruction from optical images. More precisely, I worked on the MVPS problem and neural rendering techniques under the supervision of <a href="https://fr.linkedin.com/in/lilian-calvet-42b1a689">Lilian Calvet</a> and <a href="https://www.irit.fr/~Jean-Denis.Durou">Jean-Denis Durou</a>.
+                    I am now a postdoctoral researcher continuing my work in computer vision and 3D reconstruction.
                   </p>
                   <p style="text-align: center">
                     <a href="mailto:brument.bcb@gmail.com">Email</a>
@@ -53,10 +53,92 @@
                     <a href="https://github.com/bbrument">Github</a>
                     &nbsp;/&nbsp;
                     <a href="images/cv.pdf">CV</a>
+                    &nbsp;/&nbsp;
+                    <a href="https://www.linkedin.com/in/baptiste-brument-249355176/">LinkedIn</a>
                   </p>
                 </td>
                 <td style="padding: 2.5%; width: 40%; max-width: 40%">
                   <a> <img src="images/image_baptiste.jpg" width="250px" /></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              ">
+            <tbody>
+              <tr>
+                <td style="padding: 20px; width: 100%; vertical-align: middle">
+                  <h2>News</h2>
+                  <div id="news-recent">
+                    <div class="news-item">
+                      <span class="news-date">11-2025</span>
+                      <span class="news-content">I presented our work for cultural heritage reconstruction at <a href="https://jc3dhn2025.sciencesconf.org/?lang=fr">JC3DHN 2025</a> in Marseille! It was great! I'll try to come back next year!</span>
+                    </div>
+                    <div class="news-item">
+                      <span class="news-date">11-2025</span>
+                      <span class="news-content">I am very honored to be selected as one of the reviewers for CVPR 2026.</span>
+                    </div>
+                    <div class="news-item">
+                      <span class="news-date">10-2025</span>
+                      <span class="news-content">Our paper on the RNb-NeuS extension has been accepted to IJCV!</span>
+                    </div>
+                    <div class="news-item">
+                      <span class="news-date">10-2025</span>
+                      <span class="news-content">I successfully defended my PhD thesis!</span>
+                    </div>
+                    <div class="news-item">
+                      <span class="news-date">06-2025</span>
+                      <span class="news-content">RNb-NeuS extension paper released on arXiv with improved multi-view reconstruction.</span>
+                    </div>
+                    <div class="news-item">
+                      <span class="news-date">01-2025</span>
+                      <span class="news-content">Our paper on cultural heritage reconstruction has been published in Journal of Cultural Heritage.</span>
+                    </div>
+                  </div>
+                  <div id="news-older" style="display: none;">
+                    <div class="news-item">
+                      <span class="news-date">10-2024</span>
+                      <span class="news-content">Our paper on 3D reconstruction quality assessment has been accepted to WACV 2025!</span>
+                    </div>
+                    <div class="news-item">
+                      <span class="news-date">06-2024</span>
+                      <span class="news-content">I presented RNb-NeuS at CVPR 2024 in Seattle, with great discussions and feedback.</span>
+                    </div>
+                    <div class="news-item">
+                      <span class="news-date">01-2024</span>
+                      <span class="news-content">RNb-NeuS paper has been accepted to CVPR 2024!</span>
+                    </div>
+                    <div class="news-item">
+                      <span class="news-date">12-2023</span>
+                      <span class="news-content">Our paper on multi-view stereo in refractive medium has been published in JEI.</span>
+                    </div>
+                    <div class="news-item">
+                      <span class="news-date">09-2021</span>
+                      <span class="news-content">I'm starting my PhD at IRIT, Toulouse!</span>
+                    </div>
+                  </div>
+                  <p>
+                    <a href="javascript:void(0);" id="news-toggle" onclick="toggleNews()">More</a>
+                  </p>
+                  <script type="text/javascript">
+                    function toggleNews() {
+                      var olderNews = document.getElementById("news-older");
+                      var toggleLink = document.getElementById("news-toggle");
+                      if (olderNews.style.display === "none") {
+                        olderNews.style.display = "block";
+                        toggleLink.textContent = "Less";
+                      } else {
+                        olderNews.style.display = "none";
+                        toggleLink.textContent = "More";
+                      }
+                    }
+                  </script>
                 </td>
               </tr>
             </tbody>
@@ -94,11 +176,11 @@
                 </td>
               </tr>
 
-              <!-- Journal 2025 -->
+              <!-- IJCV 2025 -->
               <tr class="paper-entry">
                 <td style="padding: 20px; width: 25%; vertical-align: middle">
                   <div class="one">
-                    <img src="images/journal2025multiview.png" width="160" />
+                    <img src="images/ijcv2025multiview.png" width="160" />
                   </div>
                 </td>
                 <td style="padding: 20px; width: 75%; vertical-align: middle">
@@ -114,7 +196,7 @@
                   <a href="https://cv.hal.science/jean-denis-durou">Jean-Denis Durou</a>,
                   <a href="https://fr.linkedin.com/in/lilian-calvet-42b1a689">Lilian Calvet</a>
                   <br />
-                  <em>arXiv preprint</em>, 2025 (Journal publication forthcoming)
+                  <em>International Journal of Computer Vision (IJCV)</em>, 2025
                   <br />
                   <a href="https://robinbruneau.github.io/publications/rnb_neus2.html">Project page</a>
                   /
