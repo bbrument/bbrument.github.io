@@ -40,10 +40,8 @@
                     Baptiste Brument
                   </p>
                   <p>
-                    I recently completed my PhD at
-                    <a href="https://www.irit.fr/">IRIT</a> in Toulouse,
-                    France, where I worked on 3D reconstruction from optical images. More precisely, I worked on the MVPS problem and neural rendering techniques under the supervision of <a href="https://fr.linkedin.com/in/lilian-calvet-42b1a689">Lilian Calvet</a> and <a href="https://www.irit.fr/~Jean-Denis.Durou">Jean-Denis Durou</a>.
-                    I am now a postdoctoral researcher continuing my work in computer vision and 3D reconstruction.
+                    I am a postdoctoral researcher at <a href="https://www.irit.fr/">IRIT</a>/CNRS in Toulouse, France, working on the <a href="https://www.cnrsinnovation.com/actualite/une-seconde-promotion-pour-le-programme-open-7-nouveaux-logiciels-scientifiques-a-valoriser/">OPEN-DOPAMIn</a> project, funded by CNRS Innovation, which aims to develop and promote open-source photogrammetry through <a href="https://alicevision.org/">AliceVision</a>/<a href="https://meshroom.org/">Meshroom</a>.
+                    I completed my PhD at IRIT on 3D reconstruction from optical images, where I worked on the MVPS problem and neural rendering techniques under the supervision of <a href="https://fr.linkedin.com/in/lilian-calvet-42b1a689">Lilian Calvet</a> and <a href="https://www.irit.fr/~Jean-Denis.Durou">Jean-Denis Durou</a>.
                   </p>
                   <p style="text-align: center">
                     <a href="mailto:brument.bcb@gmail.com">Email</a>
@@ -52,7 +50,9 @@
                     &nbsp;/&nbsp;
                     <a href="https://github.com/bbrument">Github</a>
                     &nbsp;/&nbsp;
-                    <a href="images/cv.pdf">CV</a>
+                    <a href="images/cv_english.pdf">CV (EN)</a>
+                    &nbsp;/&nbsp;
+                    <a href="images/cv_francais.pdf">CV (FR)</a>
                     &nbsp;/&nbsp;
                     <a href="https://www.linkedin.com/in/baptiste-brument-249355176/">LinkedIn</a>
                   </p>
@@ -76,6 +76,10 @@
                 <td style="padding: 20px; width: 100%; vertical-align: middle">
                   <h2>News</h2>
                   <div id="news-recent">
+                    <div class="news-item">
+                      <span class="news-date">04-2026</span>
+                      <span class="news-content">Our paper "Multi-view Shape-from-shading: A Tour" has been accepted to CAMC.</span>
+                    </div>
                     <div class="news-item">
                       <span class="news-date">03-2026</span>
                       <span class="news-content">I will be reviewing for NeurIPS 2026.</span>
@@ -173,6 +177,42 @@
               ">
             <tbody>
 
+              <!-- 2026 Publications Header -->
+              <tr>
+                <td colspan="2">
+                  <h2 style="padding-left: 20px; border-bottom: 1px solid #ddd; color: #4b6cb7;">2026</h2>
+                </td>
+              </tr>
+
+              <!-- CAMC 2026 -->
+              <tr class="paper-entry">
+                <td style="padding: 20px; width: 25%; vertical-align: middle">
+                  <div class="one">
+                    <img src="images/camc2026multiviewsfs.png" width="160" style="max-height: 160px; object-fit: contain;" />
+                  </div>
+                </td>
+                <td style="padding: 20px; width: 75%; vertical-align: middle">
+                  <span class="papertitle">Multi-view Shape-from-shading: A Tour</span>
+                  <br />
+                  <a href="https://yqueau.github.io/">Yvain Quéau</a>,
+                  <a href="https://scholar.google.com/citations?user=T7AVDwkAAAAJ">Silvia Tozza</a>,
+                  <strong>Baptiste Brument</strong>,
+                  Nathan Buskulic,
+                  <a href="https://scholar.google.fr/citations?user=t9PRZ3AAAAAJ&hl=en">Jean Mélou</a>,
+                  <a href="https://fr.linkedin.com/in/lilian-calvet-42b1a689">Lilian Calvet</a>,
+                  <a href="https://fadili.users.greyc.fr/">Jalal Fadili</a>,
+                  <a href="https://cv.hal.science/jean-denis-durou">Jean-Denis Durou</a>
+                  <br />
+                  <em>Communications in Applied Mathematics and Computation (CAMC)</em>, 2026 (Accepted)
+                  <br />
+                  <a href="data/queau2026multiview.bib">BibTeX</a>
+                  <p></p>
+                  <p>
+                    A survey revisiting multi-view shape-from-shading, providing intuitive evidence for uniqueness of solutions based on epipolar geometry, and presenting SfS-NeuS, an effective neural implicit surface method that outperforms state-of-the-art 3D reconstruction approaches on real-world examples.
+                  </p>
+                </td>
+              </tr>
+
               <!-- 2025 Publications Header -->
               <tr>
                 <td colspan="2">
@@ -207,6 +247,8 @@
                   <a href="https://arxiv.org/abs/2506.04115">arXiv</a>
                   /
                   <a href="https://doi.org/10.1007/s11263-025-02628-8">IJCV</a>
+                  /
+                  <a href="https://github.com/RobinBruneau/RNb-NeuS2">GitHub</a>
                   /
                   <a href="data/bruneau2025multiview.bib">BibTeX</a>
                   <p></p>
@@ -429,6 +471,8 @@
                   <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Brument_RNb-NeuS_Reflectance_and_Normal-based_Multi-View_3D_Reconstruction_CVPR_2024_paper.html">CVF</a>
                   /
                   <a href="https://arxiv.org/abs/2312.01215">arXiv</a>
+                  /
+                  <a href="https://github.com/bbrument/RNb-NeuS">GitHub</a>
                   /
                   <a href="data/brument2024rnbneus.bib">BibTeX</a>
                   <p></p>
@@ -687,10 +731,204 @@
               ">
             <tbody>
               <tr>
+                <td style="padding: 20px; width: 100%; vertical-align: middle">
+                  <h2>Projects</h2>
+                  <p>
+                    Open-source tools and plugins developed as part of the
+                    <a href="https://www.cnrsinnovation.com/actualite/une-seconde-promotion-pour-le-programme-open-7-nouveaux-logiciels-scientifiques-a-valoriser/">OPEN-DOPAMIn</a>
+                    project at IRIT/CNRS, extending <a href="https://meshroom.org/">Meshroom</a>'s 3D reconstruction pipeline with photometric stereo and neural rendering capabilities.
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              ">
+            <tbody>
+
+              <!-- Meshroom Plugins -->
+              <tr>
+                <td colspan="2">
+                  <h2 style="padding-left: 20px; border-bottom: 1px solid #ddd; color: #4b6cb7;">Meshroom Plugins</h2>
+                </td>
+              </tr>
+
+              <!-- mrOpenRNb -->
+              <tr class="paper-entry">
+                <td style="padding: 20px; width: 25%; vertical-align: middle; text-align: center;">
+                  <span style="font-size: 2em;">&#128268;</span>
+                </td>
+                <td style="padding: 20px; width: 75%; vertical-align: middle">
+                  <a href="https://github.com/meshroomHub/mrOpenRNb">
+                    <span class="papertitle">mrOpenRNb</span>
+                  </a>
+                  <br />
+                  <em>Neural surface reconstruction from multi-view normal and reflectance maps</em>
+                  <br />
+                  <a href="https://github.com/meshroomHub/mrOpenRNb">GitHub</a>
+                  /
+                  <a href="https://github.com/RobinBruneau/Open-RNb">Original method</a>
+                  <p></p>
+                  <p>
+                    Meshroom plugin implementing the open-source <a href="https://github.com/RobinBruneau/Open-RNb">Open-RNb</a> method for 3D surface reconstruction. Runs a two-phase albedo scaling pipeline and outputs reconstructed OBJ meshes in world coordinates from multi-view photometric stereo inputs.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- mrSDMUniPS -->
+              <tr class="paper-entry">
+                <td style="padding: 20px; width: 25%; vertical-align: middle; text-align: center;">
+                  <span style="font-size: 2em;">&#128268;</span>
+                </td>
+                <td style="padding: 20px; width: 75%; vertical-align: middle">
+                  <a href="https://github.com/meshroomHub/mrSDMUniPS">
+                    <span class="papertitle">mrSDMUniPS</span>
+                  </a>
+                  <br />
+                  <em>Universal photometric stereo via scalable diffusion models</em>
+                  <br />
+                  <a href="https://github.com/meshroomHub/mrSDMUniPS">GitHub</a>
+                  /
+                  <a href="https://github.com/satoshi-ikehata/SDM-UniPS-CVPR2023">Original method</a>
+                  <p></p>
+                  <p>
+                    Meshroom plugin integrating <a href="https://github.com/satoshi-ikehata/SDM-UniPS-CVPR2023">SDM-UniPS</a>, a universal photometric stereo method that estimates surface normal maps, albedo, roughness, and metallic parameter maps from multi-light image sets.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- mrLINOUniPS -->
+              <tr class="paper-entry">
+                <td style="padding: 20px; width: 25%; vertical-align: middle; text-align: center;">
+                  <span style="font-size: 2em;">&#128268;</span>
+                </td>
+                <td style="padding: 20px; width: 75%; vertical-align: middle">
+                  <a href="https://github.com/meshroomHub/mrLINOUniPS">
+                    <span class="papertitle">mrLINOUniPS</span>
+                  </a>
+                  <br />
+                  <em>Diffusion-prior photometric stereo for surface normal estimation</em>
+                  <br />
+                  <a href="https://github.com/meshroomHub/mrLINOUniPS">GitHub</a>
+                  /
+                  <a href="https://github.com/houyuanchen111/LINO_UniPS">Original method</a>
+                  <p></p>
+                  <p>
+                    Meshroom plugin for <a href="https://github.com/houyuanchen111/LINO_UniPS">LINO-UniPS</a>, a photometric stereo method leveraging diffusion model priors to estimate surface normals from multi-lighting images. Supports arbitrary numbers of input images with GPU acceleration.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- mrUniMSPS -->
+              <tr class="paper-entry">
+                <td style="padding: 20px; width: 25%; vertical-align: middle; text-align: center;">
+                  <span style="font-size: 2em;">&#128268;</span>
+                </td>
+                <td style="padding: 20px; width: 75%; vertical-align: middle">
+                  <a href="https://github.com/meshroomHub/mrUniMSPS">
+                    <span class="papertitle">mrUniMSPS</span>
+                  </a>
+                  <br />
+                  <em>Multi-view / single-view photometric stereo</em>
+                  <br />
+                  <a href="https://github.com/meshroomHub/mrUniMSPS">GitHub</a>
+                  /
+                  <a href="https://github.com/Clement-Hardy/Uni-MS-PS">Original method</a>
+                  <p></p>
+                  <p>
+                    Meshroom plugin for <a href="https://github.com/Clement-Hardy/Uni-MS-PS">Uni-MS-PS</a>, a photometric stereo algorithm for per-pixel surface normal estimation supporting both calibrated (known light directions) and uncalibrated modes.
+                  </p>
+                </td>
+              </tr>
+
+              <!-- mrHelloWorld -->
+              <tr class="paper-entry">
+                <td style="padding: 20px; width: 25%; vertical-align: middle; text-align: center;">
+                  <span style="font-size: 2em;">&#128218;</span>
+                </td>
+                <td style="padding: 20px; width: 75%; vertical-align: middle">
+                  <a href="https://github.com/meshroomHub/mrHelloWorld">
+                    <span class="papertitle">mrHelloWorld</span>
+                  </a>
+                  <br />
+                  <em>Tutorial series for Meshroom plugin development</em>
+                  <br />
+                  <a href="https://github.com/meshroomHub/mrHelloWorld">GitHub</a>
+                  <p></p>
+                  <p>
+                    A hands-on tutorial with 7 progressively complex examples &mdash; from a minimal node to SfMData manipulation with pyalicevision and ML inference (DeepLabV3 semantic segmentation). Serves as the learning resource for Meshroom plugin development.
+                  </p>
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+          <table style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              ">
+            <tbody>
+              <tr>
+                <td style="padding: 20px; width: 100%; vertical-align: middle">
+                  <h2>Tools &amp; Resources</h2>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <table style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              ">
+            <tbody>
+
+              <!-- MesoNet Juliet -->
+              <tr class="paper-entry">
+                <td style="padding: 20px; width: 25%; vertical-align: middle; text-align: center;">
+                  <span style="font-size: 2em;">&#9881;</span>
+                </td>
+                <td style="padding: 20px; width: 75%; vertical-align: middle">
+                  <a href="https://www.mesonet.fr/">
+                    <span class="papertitle">MesoNet &mdash; Juliet Cluster</span>
+                  </a>
+                  <br />
+                  <em>GPU computing for 3D reconstruction and deep learning</em>
+                  <p></p>
+                  <p>
+                    Computation for this work was performed using HPC resources from the Juliet cluster operated by MesoNet.
+                  </p>
+                </td>
+              </tr>
+
+            </tbody>
+          </table>
+          <table style="
+                width: 100%;
+                border: 0px;
+                border-spacing: 0px;
+                border-collapse: separate;
+                margin-right: auto;
+                margin-left: auto;
+              ">
+            <tbody>
+              <tr>
                 <td style="padding: 0px">
                   <br />
                   <p style="text-align: right; font-size: small">
-                    This website is inspired from Jon Barron's. Last updated April 2026.
+                    This website is inspired from Jon Barron's. Last updated May 2026.
                   </p>
                 </td>
               </tr>
