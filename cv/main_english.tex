@@ -1,0 +1,141 @@
+%% start of file `new.tex'.
+%% Copyright 2006-2012 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvcolor{blue}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvstyle{classic}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+% ^ moderncv >= 2.4 : \moderncvcolor DOIT preceder \moderncvstyle, sinon le bleu est perdu.
+% moderncv >= 2.4 met le prenom a 50%% de teinte (firstnamecolor = lastnamecolor!50),
+% ce qui affiche le nom en deux tons. On retablit un nom uniforme.
+\colorlet{firstnamecolor}{lastnamecolor}
+%\renewcommand{\familydefault}{\rmdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+%\usepackage[utf8]{inputenc}                  % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                         % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.82]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}           % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}      % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\firstname{Baptiste}
+\familyname{Brument}
+\title{Postdoctoral Researcher in Computer Vision\\ IRIT, CNRS}               % optional, remove the line if not wanted
+\address{31000, Toulouse}    % optional, remove the line if not wanted
+\mobile{06~52~42~19~64}                     % optional, remove the line if not wanted
+%\phone{+2~(345)~678~901}                      % optional, remove the line if not wanted
+%\fax{+3~(456)~789~012}                        % optional, remove the line if not wanted
+\email{brument.bcb@gmail.com}                          % optional, remove the line if not wanted
+\homepage{bbrument.github.io}                    % optional, remove the line if not wanted
+%\extrainfo{additional information}            % optional, remove the line if not wanted
+%\photo[110pt][0.01pt]{picture.jpg}                  % '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file; optional, remove the line if not wanted
+%\quote{Some quote (optional)}                 % optional, remove the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+
+% bibliography with multiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+% footnote avec symbole (*) pour la mention "Equal contribution" :
+% moderncv ne definit \@makefntext qu'a l'interieur de \makecvtitle, d'ou cette definition.
+\makeatletter
+\def\@makefntext#1{\noindent\makebox[1.2em][r]{\@thefnmark}\,#1}
+\makeatother
+
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                     % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Education}
+\cventry{2021 -- 2025}{Ph.D. in Computer Vision: On the Usefulness of Explicit Models for Photographic 3D Reconstruction}{}{IRIT, University of Toulouse}{}{Thesis Supervisor: Jean-Denis DUROU / Advisor: Lilian CALVET\\ NNT: 2025TLSES166 -- \texttt{theses.fr/2025TLSES166}}{}
+\cventry{2020 -- 2021}{Master PSMSC - Performance in Software, Multimedia and Scientific Computing}{}{INP-ENSEEIHT, Toulouse}{}{}{}
+\cventry{2018 -- 2021}{Engineering School}{}{INP-ENSEEIHT, Toulouse}{}{Digital Sciences - Image \& Multimedia\\ Competence Areas: Computer Vision | Artificial Intelligence | Geometric and Photometric Methods for 3D Reconstruction}{}
+\cventry{2016 -- 2018}{Preparatory Classes for Grandes Écoles (PCSI-PSI)}{}{Lycée Joffre, Montpellier}{}{}{}
+\cventry{2016}{Scientific Baccalaureate}{}{Lycée Notre-Dame de la Merci, Montpellier}{}{}{}
+
+\section{Professional Experience}
+
+\cventry{2025 -- Present}{Postdoctoral Researcher on the OPEN-DOPAMIn project (Open Dissemination of Photogrammetry via AliceVision/Meshroom for Industry), CNRS Innovation}{}{IRIT, CNRS}{}{Integration of a complete multi-view photometric stereo ecosystem (calibrated, self-calibrated and universal photometric stereo, automatic masking, normal-and-reflectance integration) into the open-source Meshroom framework.}{}
+
+\cventry{2021 -- Present}{Teaching Assistant DCCE}{}{INP-ENSEEIHT, Toulouse}{}{Courses taught: Computer Architecture (BSc), Data Analysis (BSc), Probabilities (BSc), Statistics (BSc), Inverse Problems for 3D (MSc).\\ Created a lecture and two practical sessions on NeRF/NeuS and RNb-NeuS within the Inverse Problems for 3D course (MSc).}{}
+
+\cventry{Mar -- Sep 2021}{Research Internship}{}{REVA -- IRIT, Toulouse}{}{End of studies project -- B. Brument, L. Calvet, J. Mélou, J-D. Durou. 3D Reconstruction of a Convex Polyhedron from its Silhouettes. ORASIS 2021}{}
+
+\cventry{Jun -- Jul 2020}{Research Internship}{}{Lab. of Biometry and Bioinformatics, Department of Agricultural and Environmental Biology, University of Tokyo, Japan}{}{Deep-learning based imputation of missing data in historical rice breeding database}{}
+
+\cventry{Jun -- Jul 2019}{Research Internship}{}{INRA/CIRAD, Montpellier}{}{Creation of the \textit{openalea.rtfd.io} website containing documentation and interactive tutorials (ReadTheDocs \& Jupyter) for the mathematical and computer modeling software OpenAlea}{}
+
+\cventry{2018}{Private Tutor in Physics and Mathematics}{}{Montpellier}{}{}{}
+
+\newpage
+\renewcommand{\thefootnote}{*}
+\section{Publications}
+
+\subsection*{Preprints}
+\cvlistitem{R. Bruneau\textsuperscript{*}, \textbf{B. Brument}\textsuperscript{*}, F. Giraud, B. Sigrist, S. Jecklin, P. F\"urnstahl, B. Menze, L. Calvet, "Martine: Benchmarking Multi-View 3D Surface Reconstruction Across Viewpoint Coverage, Resolution, and Lighting," 2026 (Conditionally accepted, \textit{NeurIPS} Evaluations \& Datasets Track).}
+
+\footnotetext[1]{Equal contribution.}
+
+\subsection*{International Journals}
+\cvlistitem{Y. Quéau, S. Tozza, \textbf{B. Brument}, N. Buskulic, J. Mélou, L. Calvet, J. Fadili, J.-D. Durou, "Multi-view Shape-from-shading: A Tour," \textit{Commun. Appl. Math. Comput. (CAMC)}, 2026 (Accepted).}
+\cvlistitem{R. Bruneau\textsuperscript{*}, \textbf{B. Brument}\textsuperscript{*}, Y. Quéau, J. Mélou, F. B. Lauze, J.-D. Durou, L. Calvet, "Multi-view Surface Reconstruction Using Normal and Reflectance Cues," \textit{Int. J. Comput. Vis. (IJCV)}, 2025.}
+\cvlistitem{A. Laurent, B. Coupry, \textbf{B. Brument}, J. Mélou, Y. Quéau, C. Fritz, J.-D. Durou, "Combining geometric and photometric 3D reconstruction techniques for cultural heritage," \textit{J. Cult. Herit.}, vol. 73, pp. 43-51, 2025.}
+\cvlistitem{R. Bruneau, \textbf{B. Brument}, L. Calvet, M. Cassidy, J. Mélou, Y. Quéau, J.-D. Durou, F. B. Lauze, "Multi-view stereo of an object immersed in a refractive medium," \textit{J. Electron. Imaging (JEI)}, 2024.}
+
+\subsection*{International Conferences}
+\cvlistitem{\textbf{B. Brument}, R. Bruneau, B. Coupry, V. Demoulin, J. M\'elou, A. Laurent, F. Castan, J.-D. Durou, L. Calvet, "Integrating Multi-view Multi-light Surface Reconstruction into Cultural Heritage Workflows," \textit{Proc. ECCV Workshops (VISART)}, 2026.}
+\cvlistitem{E. Most, J. Hein, F. Giraud, N. Cavalcanti, L. Zingg, \textbf{B. Brument}, N. Louman, F. Carillo, P. Fürnstahl, L. Calvet, "Acquiring Submillimeter-Accurate Multi-Task Vision Datasets for Computer-Assisted Orthopedic Surgery," \textit{Proc. IPCAI}, 2025.}
+\cvlistitem{B. Coupry, \textbf{B. Brument}, A. Laurent, J. Mélou, Y. Quéau, J.-D. Durou, "Assessing the Quality of 3D Reconstruction in the Absence of Ground Truth: Application to a Multimodal Archaeological Dataset," \textit{Proc. WACV}, 2025.}
+\cvlistitem{\textbf{B. Brument}\textsuperscript{*}, R. Bruneau\textsuperscript{*}, Y. Quéau, J. Mélou, F. B. Lauze, J.-D. Durou, L. Calvet, "RNb-NeuS: Reflectance and Normal-based Multi-View 3D Reconstruction," \textit{Proc. CVPR}, 2024.}
+\cvlistitem{L. Calvet, N. Maignan, \textbf{B. Brument}, S. Tozza, J.-D. Durou, Y. Quéau, "Multi-view Normal Estimation -- Application to Slanted Plane-Sweeping," \textit{Proc. SSVM}, LNCS vol. 14009, 2023.}
+\cvlistitem{\textbf{B. Brument}, L. Calvet, R. Bruneau, J. Mélou, S. Gasparini, Y. Quéau, F. B. Lauze, J.-D. Durou, "A shape-from-silhouette method for 3D reconstruction of a convex polyhedron," \textit{Proc. SPIE QCAV}, 2023.}
+
+\subsection*{National Conferences (France)}
+\cvlistitem{B. Coupry, M. El Omari, A. Tarrade, \textbf{B. Brument}, R. Malinge, J. Mélou, \textit{et al.}, "Étalonnage de la réponse du capteur photographique - Application à la stéréophotométrie," \textit{Actes RFIAP}, 2026.}
+\cvlistitem{B. Coupry, J. Mélou, A. Laurent, \textbf{B. Brument}, P. Gurdjos, Y. Quéau, J.-D. Durou, "Stéréophotométrie avec estimation locale de l'éclairage - Application à la reconstruction 3D du patrimoine archéologique," \textit{Actes RFIAP}, 2024.}
+\cvlistitem{\textbf{B. Brument}, L. Calvet, J. Mélou, J.-D. Durou, "Reconstruction 3D d'un polyèdre convexe à partir de ses silhouettes," \textit{Actes ORASIS}, 2021.}
+
+
+
+\section{Academic Service}
+\cventry{2026}{Reviewer}{}{NeurIPS -- Conference on Neural Information Processing Systems}{}{}{}
+\cventry{2026}{Reviewer}{}{CVPR -- IEEE/CVF Conference on Computer Vision and Pattern Recognition}{}{}{}
+
+\section{Languages}
+\cventry{French}{Native}{}{}{}{}{}
+\cventry{English}{Proficient (C1)}{}{Cambridge Linguaskill Business: $180+$}{}{}
+\cventry{Spanish}{Basic}{}{}{}{}{}
+\cventry{German}{Basic}{}{}{}{}{}
+
+\section{Computer Skills}
+\cventry{OS}{Unix, Windows}{}{}{}{}
+\cventry{Languages}{Python, Matlab}{}{}{}{}{}
+\cventry{Deep Learning}{PyTorch, HuggingFace, PEFT/LoRA, distributed training (DDP), Hydra}{}{}{}{}{}
+\cventry{Rendering}{Blender/Cycles (headless, physically based), Mitsuba 3, synthetic dataset generation with full ground truth}{}{}{}{}{}
+\cventry{Tools}{Git, Docker, SLURM, pytest, LaTeX, Jupyter, AI coding agents}{}{}{}{}{}
+\cventry{Software}{Meshroom/AliceVision (plugin development), Inkscape, Gimp}{}{}{}{}{}
+\cventry{HPC}{MesoNet Juliet cluster (3$\times$8 A100-80GB), multi-GPU experiments}{}{}{}{}{}
+
+% \section{Hobbies}
+% \cventry{Sports}{Tennis, Crossfit, Running}{}{}{}{}{}
+% \cventry{Guitar}{2 years of practice}{}{}{}{}{}
+% \cventry{Others}{Cinema, Music, Dance}{}{}{}{}{}
+
+\end{document}
+%% end of file `template.tex'.

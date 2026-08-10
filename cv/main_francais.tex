@@ -1,0 +1,182 @@
+%% start of file `new.tex'.
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% moderncv themes
+\moderncvcolor{blue}
+\moderncvstyle{classic}
+% ^ moderncv >= 2.4 : \moderncvcolor DOIT preceder \moderncvstyle, sinon le bleu est perdu.
+% moderncv >= 2.4 met le prenom a 50%% de teinte (firstnamecolor = lastnamecolor!50),
+% ce qui affiche le nom en deux tons. On retablit un nom uniforme.
+\colorlet{firstnamecolor}{lastnamecolor}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.82]{geometry}
+
+% personal data
+\firstname{Baptiste}
+\familyname{Brument}
+\title{Chercheur postdoctoral en vision par ordinateur\\ IRIT, CNRS}
+\address{31000, Toulouse}
+\mobile{06~52~42~19~64}
+\email{brument.bcb@gmail.com}
+\homepage{bbrument.github.io}
+
+% % -------------------------------------------------------------------------
+% % PHOTO : Activée ici.
+% % [80pt] est la largeur de la photo.
+% % [0.4pt] est l'épaisseur du cadre (mettez 0pt pour sans cadre).
+% % Le style 'classic' place la photo à droite par défaut.
+% % -------------------------------------------------------------------------
+% \photo[80pt][0pt]{image_baptiste.jpg}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+% footnote avec symbole (*) pour la mention "Contribution égale" :
+% moderncv ne definit \@makefntext qu'a l'interieur de \makecvtitle, d'ou cette definition.
+\makeatletter
+\def\@makefntext#1{\noindent\makebox[1.2em][r]{\@thefnmark}\,#1}
+\makeatother
+
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                     % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\section{Formation}
+\cventry{2021 -- 2025}{Doctorat en vision par ordinateur : De l'utilité des modèles explicites pour la reconstruction 3D photographique}{}{IRIT, Université de Toulouse}{}{Directeur de thèse : Jean-Denis DUROU / Encadrant : Lilian CALVET\\ NNT : 2025TLSES166 -- \texttt{theses.fr/2025TLSES166}}{}
+\cventry{2020 -- 2021}{Master PSMSC - Performance in Software, Multimedia and Scientific\newline Computing}{}{INP-ENSEEIHT, Toulouse}{}{}{}
+\cventry{2018 -- 2021}{École d'ingénieur}{}{INP-ENSEEIHT, Toulouse}{}{Sciences du Numérique - Image \& Multimédia\\ Domaines de compétence : vision par ordinateur | intelligence artificielle | méthodes géométriques et photométriques pour la reconstruction 3D}{}
+\cventry{2016 -- 2018}{Classes préparatoires aux grandes écoles (PCSI-PSI)}{}{Lycée Joffre, Montpellier}{}{}{}
+\cventry{2016}{Baccalauréat Scientifique}{}{Lycée Notre-Dame de la Merci, Montpellier}{}{}{}
+
+
+% \section{Research Interests}\cvlistitem {\textbf{Research Interest Title 1} \\Description}
+% \cvlistitem {\textbf{Research Interest Title 2} \\Description}
+% \cvlistitem {\textbf{Research Interest Title 3} \\Description}
+% \cvlistitem {\textbf{Research Interest Title 4} \\Description}
+
+% \section{Honors \& Awards}
+% \cvlistitem{Honor1 Description }
+% \cvlistitem{Honor2 Description }
+% \cvlistitem{Honor3 Description }
+% \cvlistitem{Honor4 Description }
+
+
+% \section{Research Experiences}
+
+% \cventry{Start--End}{Position}{}{institution, Research Group, under supervision of Supervisor-Name}{}{}
+% \cvlistitem {\textbf{Project Description}
+% }
+% \cventry{Start--End}{Position}{}{institution, Research Group, under supervision of Supervisor-Name}{}{}
+% \cvlistitem {\textbf{Project Description}
+% }
+% \cventry{Start--End}{Position}{}{institution, Research Group, under supervision of Supervisor-Name}{}{}
+% \cvlistitem {\textbf{Project Description}
+% }
+
+% \section{Applications \& Projets}
+
+% \cventry{PI3D}{Problèmes Inverses pour le 3D}{}{}{}{}{}
+% \cvlistitem{\textbf{Méthodes géométriques et photométriques de reconstruction 3D} \\ \textit{Structure-from-motion | Multi-View Stereo | Shape-from-shading | Stéréophotométrie}}
+% \cvlistitem{\textbf{Reconstruction 3D d'un polyèdre convexe non-texturé} \\ \textbf{Initiation à la recherche :} \textit{Adaptation du shape-from-silhouettes couplée à un algorithme de suivi lors d'une rotation}}
+
+% \cventry{IA}{Intelligence Artificielle}{}{}{}{}{}
+% \cvlistitem{\textbf{Applications de réseaux denses, CNN, AE et GAN} \\ \textit{Régression | Classification | Estimation de posture | Détection d'objet}}
+% \cvlistitem{\textbf{Projet : Classification d'images satellite} \\ \textit{Transfert-learning | Fine-tuning}}
+% \cvlistitem{\textbf{Projet : Ré-identification de pokémons et d'humains par\\ méthodes d'apprentissage} \\ \textit{Architectures complexes | Triplet-loss | Machine-learning : Random Forest}}
+
+% \cventry{VRAA}{Vision, Réalité Augmentée et Applications}{}{}{}{}{}
+% \cvlistitem{\textbf{Projet : Construction d'une mosaïque d'images} \\ \textit{Détecteurs | Descripteurs}}
+% \cvlistitem{\textbf{Projet : Intégration d'objets virtuels dans un scène réelle} \\ \textit{Détection de marqueurs | Suivi | Calibrage | Distorsion}}
+% \cvlistitem{\textbf{Projet : Ré-identification de pokémons et d'humains par\\ méthodes classiques} \\ \textit{Adaptation de descripteurs : LOMO, ColorNames}}
+
+% \cventry{TAV}{Traitement des données Audio-Visuelles}{}{}{}{}{}
+% \cvlistitem{\textbf{Méthodes d'apprentissage et modèles graphiques probabilistes} \\ \textit{Estimation de paramètres | Algorithme EM | Champ de Markov}}
+% \cvlistitem{\textbf{Introduction aux méthodes variationnelles} \\ \textit{Restauration d'images | Photomontage | Inpainting}}
+
+% \section{Teaching Experiences}
+% \cventry{Date}{Position}{}{Course Name, UniversityName, City, Country}{}{}
+% \cventry{Date}{Position}{}{Course Name, UniversityName, City, Country}{}{}
+
+
+% \section{Related Courses}
+% \cvlistitem {Course1 Name: 0/4}
+% \cvlistitem {Course2 Name: 0/4}
+% \cvlistitem {Course3 Name: 0/4}
+% \cvlistitem {Course4 Name: 0/4}
+
+\section{Expériences professionnelles}
+
+\cventry{2025 -- Présent}{Chercheur postdoctoral sur le projet OPEN-DOPAMIn (Diffusion Open de Photogrammétrie par AliceVision/Meshroom pour l'Industrie), CNRS Innovation}{}{IRIT, CNRS}{}{Intégration d'un écosystème complet de stéréophotométrie multi-vues (stéréophotométrie calibrée, auto-calibrée et universelle, masquage automatique, intégration des normales et de la réflectance) dans le logiciel open-source Meshroom.}{}
+
+\cventry{2021 -- Présent}{Chargé d'enseignement DCCE}{}{INP-ENSEEIHT, Toulouse}{}{Matières enseignées : Architecture des ordinateurs (L3), Analyse de données (L3), Probabilités (L3), Statistiques (L3), Problèmes inverses pour le 3D (M2).\\ Création d'un cours et de deux TPs sur NeRF/NeuS et RNb-NeuS dans l'UE Problèmes inverses pour le 3D (M2).}{}
+
+\cventry{Mars -- Sept. 2021}{Stage de recherche}{}{REVA -- IRIT, Université de Toulouse}{}{Projet de fin d'études -- B. Brument, L. Calvet, J. Mélou, J-D. Durou. Reconstruction 3D d'un polyèdre convexe à partir de ses silhouettes. ORASIS 2021}{}
+
+\cventry{Juin -- Juillet 2020}{Stage de recherche}{}{Lab. of Biometry and Bioinformatics, Department of Agricultural and Environmental Biology, University of Tokyo, Japan}{}{Deep-learning based imputation of missing data in historical rice breeding database}{}
+
+\cventry{Juin -- Juillet 2019}{Stage de recherche}{}{INRA/CIRAD, Montpellier}{}{Création du site \textit{openalea.rtfd.io} regroupant la documentation et des tutoriels intéractifs (ReadTheDocs \& Jupyter) sur le logiciel de modélisation mathématique et informatique de plantes OpenAlea}{}
+
+\cventry{2018}{Cours particuliers de physique et mathématiques}{}{Montpellier}{}{}{}
+
+\newpage
+\renewcommand{\thefootnote}{*}
+\section{Publications}
+
+\subsection*{Prépublications}
+\cvlistitem{R. Bruneau\textsuperscript{*}, \textbf{B. Brument}\textsuperscript{*}, F. Giraud, B. Sigrist, S. Jecklin, P. F\"urnstahl, B. Menze, L. Calvet, "Martine: Benchmarking Multi-View 3D Surface Reconstruction Across Viewpoint Coverage, Resolution, and Lighting," 2026 (Accepté sous conditions, \textit{NeurIPS} Evaluations \& Datasets Track).}
+
+\footnotetext[1]{Contribution égale.}
+
+\subsection*{Revues Internationales}
+\cvlistitem{Y. Quéau, S. Tozza, \textbf{B. Brument}, N. Buskulic, J. Mélou, L. Calvet, J. Fadili, J.-D. Durou, "Multi-view Shape-from-shading: A Tour," \textit{Commun. Appl. Math. Comput. (CAMC)}, 2026 (Accepté).}
+\cvlistitem{R. Bruneau\textsuperscript{*}, \textbf{B. Brument}\textsuperscript{*}, Y. Quéau, J. Mélou, F. B. Lauze, J.-D. Durou, L. Calvet, "Multi-view Surface Reconstruction Using Normal and Reflectance Cues," \textit{Int. J. Comput. Vis. (IJCV)}, 2025.}
+\cvlistitem{A. Laurent, B. Coupry, \textbf{B. Brument}, J. Mélou, Y. Quéau, C. Fritz, J.-D. Durou, "Combining geometric and photometric 3D reconstruction techniques for cultural heritage," \textit{J. Cult. Herit.}, vol. 73, pp. 43-51, 2025.}
+\cvlistitem{R. Bruneau, \textbf{B. Brument}, L. Calvet, M. Cassidy, J. Mélou, Y. Quéau, J.-D. Durou, F. B. Lauze, "Multi-view stereo of an object immersed in a refractive medium," \textit{J. Electron. Imaging (JEI)}, 2024.}
+
+\subsection*{Conférences Internationales}
+\cvlistitem{\textbf{B. Brument}, R. Bruneau, B. Coupry, V. Demoulin, J. M\'elou, A. Laurent, F. Castan, J.-D. Durou, L. Calvet, "Integrating Multi-view Multi-light Surface Reconstruction into Cultural Heritage Workflows," \textit{Proc. ECCV Workshops (VISART)}, 2026.}
+\cvlistitem{E. Most, J. Hein, F. Giraud, N. Cavalcanti, L. Zingg, \textbf{B. Brument}, N. Louman, F. Carillo, P. Fürnstahl, L. Calvet, "Acquiring Submillimeter-Accurate Multi-Task Vision Datasets for Computer-Assisted Orthopedic Surgery," \textit{Proc. IPCAI}, 2025.}
+\cvlistitem{B. Coupry, \textbf{B. Brument}, A. Laurent, J. Mélou, Y. Quéau, J.-D. Durou, "Assessing the Quality of 3D Reconstruction in the Absence of Ground Truth: Application to a Multimodal Archaeological Dataset," \textit{Proc. WACV}, 2025.}
+\cvlistitem{\textbf{B. Brument}\textsuperscript{*}, R. Bruneau\textsuperscript{*}, Y. Quéau, J. Mélou, F. B. Lauze, J.-D. Durou, L. Calvet, "RNb-NeuS: Reflectance and Normal-based Multi-View 3D Reconstruction," \textit{Proc. CVPR}, 2024.}
+\cvlistitem{L. Calvet, N. Maignan, \textbf{B. Brument}, S. Tozza, J.-D. Durou, Y. Quéau, "Multi-view Normal Estimation – Application to Slanted Plane-Sweeping," \textit{Proc. SSVM}, LNCS vol. 14009, 2023.}
+\cvlistitem{\textbf{B. Brument}, L. Calvet, R. Bruneau, J. Mélou, S. Gasparini, Y. Quéau, F. B. Lauze, J.-D. Durou, "A shape-from-silhouette method for 3D reconstruction of a convex polyhedron," \textit{Proc. SPIE QCAV}, 2023.}
+
+\subsection*{Conférences Nationales (France)}
+\cvlistitem{B. Coupry, M. El Omari, A. Tarrade, \textbf{B. Brument}, R. Malinge, J. Mélou, \textit{et al.}, "Étalonnage de la réponse du capteur photographique - Application à la stéréophotométrie," \textit{Actes RFIAP}, 2026.}
+\cvlistitem{B. Coupry, J. Mélou, A. Laurent, \textbf{B. Brument}, P. Gurdjos, Y. Quéau, J.-D. Durou, "Stéréophotométrie avec estimation locale de l'éclairage - Application à la reconstruction 3D du patrimoine archéologique," \textit{Actes RFIAP}, 2024.}
+\cvlistitem{\textbf{B. Brument}, L. Calvet, J. Mélou, J.-D. Durou, "Reconstruction 3D d'un polyèdre convexe à partir de ses silhouettes," \textit{Actes ORASIS}, 2021.}
+
+\section{Activités de relecture}
+\cventry{2026}{Relecteur}{}{NeurIPS -- Conference on Neural Information Processing Systems}{}{}{}
+\cventry{2026}{Relecteur}{}{CVPR -- IEEE/CVF Conference on Computer Vision and Pattern Recognition}{}{}{}
+
+\section{Langues}
+\cventry{Français}{Langue maternelle}{}{}{}{}{}
+\cventry{Anglais}{Niveau C1}{}{Cambridge Linguaskill Business : $180+$}{}{}
+\cventry{Espagnol}{Notions}{}{}{}{}{}
+\cventry{Allemand}{Notions}{}{}{}{}{}
+
+\section{Compétences Informatiques}
+\cventry{OS}{Unix, Windows}{}{}{}{}
+\cventry{Langages}{Python, Matlab}{}{}{}{}{}
+\cventry{Apprentissage profond}{PyTorch, HuggingFace, PEFT/LoRA, entraînement distribué (DDP), Hydra}{}{}{}{}{}
+\cventry{Rendu}{Blender/Cycles (sans interface graphique, rendu physiquement réaliste), Mitsuba 3, génération de jeux de données synthétiques avec vérité terrain complète}{}{}{}{}{}
+\cventry{Outils}{Git, Docker, SLURM, pytest, LaTeX, Jupyter, agents de codage IA}{}{}{}{}{}
+\cventry{Logiciels}{Meshroom/AliceVision (développement de plugins), Inkscape, Gimp}{}{}{}{}{}
+\cventry{HPC}{Cluster Juliet de MesoNet (3$\times$8 A100-80GB), expériences multi-GPU}{}{}{}{}{}
+
+% \section{Loisirs}
+% \cventry{Sport}{Crossfit, cyclisme, tennis}{}{}{}{}{}
+% \cventry{Guitare}{2 ans de pratique}{}{}{}{}{}
+% \cventry{Autres}{Cinéma, musique, danse}{}{}{}{}{}
+
+
+% \section{References}
+% \cvlistitem{\textbf{SupervisorName} \\ Department \\Faculty \\University \\City, Country\\email@email.com\\}
+
+\end{document}
+
+
+%% end of file `template.tex'.
+
