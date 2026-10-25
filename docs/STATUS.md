@@ -7,4 +7,4 @@
 
 ## À faire
 - Martine : ajouter arXiv, page projet et code dès qu'ils existent (site + BibTeX + CV).
-- `~/drive/Documents/Candidatures/CV/resume_brument.tex` (CV de candidature) est en retard sur les CV du site : nom de la track NeurIPS, CAMC publié, IJCV 2026, Outstanding Reviewer.
+- CV de candidature (`~/drive/Documents/Candidatures/CV/resume_brument.tex`) aligné le 25/10, sauf l’établissement de l’entrée postdoc (« IRIT, CNRS »).
